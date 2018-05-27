@@ -1,5 +1,3 @@
-import collections
-
 class Solution:
     def numberOfLines(self, widths, S):
         """
@@ -19,7 +17,3 @@ class Solution:
                 currentChars = widths[ord(c) - 97]
 
         return [lineUsed+1, currentChars]
-
-    # numberOfLines(
-    #     [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
-    #     "abcdefghijklmnopqrstuvwxyz")
